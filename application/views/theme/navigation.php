@@ -32,10 +32,7 @@
                                                         <li><a href="<?php echo site_url('galeri');?>">Galeri</a></li>
                                                     </ul>
                                                 </li>
-                                                
-                                                
-                                                
-                                                <li><a href="<?php echo site_url('download');?>">Download</a></li>
+                                                <!-- <li><a href="<?php echo site_url('download');?>">Download</a></li> -->
                                                 <li><a href="<?php echo site_url('blog');?>">Berita</a></li>
                                                 <li><a href="<?php echo site_url('video');?>">Video Belajar</a></li>
                                             </ul>

@@ -18,13 +18,9 @@
 
   <!-- Custom styles for this template-->
   <link href="<?php echo base_url('');?>admin/css/sb-admin-2.min.css" rel="stylesheet">
-
 </head>
-
 <body class="bg-gradient-primary">
-
   <div class="container">
-
     <!-- Outer Row -->
     <div class="row justify-content-center">
 
@@ -38,7 +34,7 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Hanya Untuk Administrator Website!</h1>
+                    <!-- <h1 class="h4 text-gray-900 mb-4">Hanya Untuk Administrator Website!</h1> -->
                   </div>
                     
                     <p><?php echo $this->session->flashdata('msg');?></p>
@@ -50,12 +46,12 @@
                     <div class="form-group">
                       <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
                     </div>
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                       <div class="custom-control custom-checkbox small">
                         <input type="checkbox" class="custom-control-input" id="customCheck">
                         <label class="custom-control-label" for="customCheck">Remember Me</label>
                       </div>
-                    </div>
+                    </div> -->
                     <button type="submit" class="btn btn-primary btn-block btn-flat">Login</button>
                     <hr>
                     <a href="#" class="btn btn-google btn-user btn-block">
@@ -69,8 +65,11 @@
                   <div class="text-center">
                     <a class="small" href="#">Forgot Password?</a>
                   </div>
-                  <div class="text-center">
+                  <!-- <div class="text-center">
                     <a class="small" href="#">Create an Account!</a>
+                  </div> -->
+                  <div class="text-center">
+                    <a class="small" href="<?php echo site_url('') ?>">Back to Page!</a>
                   </div>
                 </div>
               </div>

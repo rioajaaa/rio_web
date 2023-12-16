@@ -9,8 +9,8 @@
   <meta name="description" content="MURIS STUDIO WEB SEKOLAH GRATIS PREMIUM">
   <meta name="author" content="MURIS STUDIO">
 
-  <title><?php echo isset($breadcrumb) ? $breadcrumb : ''; ?></title>
-<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('');?>style/img/tut-wuri-handayani-7759-32x32.ico">
+  <title>ADMIN AL AMIN</title>
+<link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url('');?>style/img/ponpes/al-amin-head.png">
   <!-- Custom fonts for this template-->
   <link href="<?php echo base_url('');?>admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">

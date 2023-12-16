@@ -8,7 +8,7 @@
                             <h3 class="footer_title">
                                 Tentang Kami
                             </h3>
-                            <img width="150" src="<?php echo base_url('');?>style/img/tut-wuri-handayani-7759.png" class="rounded" alt="Muris Studio">
+                            <img style="margin-left: 18px;" width="155" src="<?php echo base_url('');?>style/img/ponpes/al-amin-head.png" class="rounded" alt="">
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6 col-lg-3">
@@ -17,7 +17,7 @@
                                 Dashboard
                             </h3>
                             <ul>
-                                <li><a href="<?php echo site_url();?>">Dashboard</a></li>
+                                <!-- <li><a href="<?php echo site_url();?>">Dashboard</a></li> -->
                             <li><a href="<?php echo site_url('about');?>">Tentang Sekolah</a></li>
                             <li><a href="<?php echo site_url('artikel');?>">Berita Sekolah</a></li>
                             <li><a href="<?php echo site_url('galeri');?>">Galeri Sekolah</a></li>
@@ -34,7 +34,7 @@
                                 <li><a href="<?php echo site_url('guru');?>">Daftar Guru</a></li>
                           <li><a href="<?php echo site_url('pengumuman');?>">Pengumuman</a></li>
                           <li><a href="<?php echo site_url('agenda');?>">Agenda</a></li>
-                          <li><a href="<?php echo site_url('download');?>">Download File</a></li>
+                          <!-- <li><a href="<?php echo site_url('download');?>">Download File</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -47,25 +47,21 @@
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-home"></i></span>
                             <div class="media-body">
-                                
                                 <p>MURIS STUDIO</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
-                            <div class="media-body">
-                                
+                            <div class="media-body">   
                                 <p>Call : 0857 9969 6924</p>
                             </div>
                         </div>
                         <div class="media contact-info">
                             <span class="contact-info__icon"><i class="ti-email"></i></span>
                             <div class="media-body">
-                                
                                 <p>suryaciptainformatika@gmail.com</p>
                             </div>
-                        </div>
-                    
+                        </div
                         </div>
                     </div>
                 </div>
@@ -77,8 +73,9 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://suryaciptainformatika.com/" target="_blank">Sekolah Teknologi Muris</a> </p>
+                            <p style="color: white;">
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://www.instagram.com/riooo.fm?igshid=OGQ5ZDc2ODk2ZA==" target="">Rio Fitra Mutaqin</a>
+                            </p>
                         </p>
                     </div>
                 </div>
@@ -86,7 +83,6 @@
         </div>
     </footer>
     <!-- footer end  -->
-
 
     <!-- JS here -->
     <script src="<?php echo base_url('');?>style/js/vendor/modernizr-3.5.0.min.js"></script>

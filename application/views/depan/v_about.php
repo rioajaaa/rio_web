@@ -17,7 +17,7 @@
                                 <a href="#">
                                     <h4>SAMBUTAN KEPALA SEKOLAH</h4>
                                  </a>
-                                <p><span> <i class="flaticon-clock"></i> 10:30 pm</span> <span> <i class="flaticon-calendar"></i> 21 Nov 2020 </span> <span> <i class="flaticon-placeholder"></i> AH Oditoriam</span> </p>
+                                <!-- <p><span> <i class="flaticon-clock"></i> 10:30 pm</span> <span> <i class="flaticon-calendar"></i> 21 Nov 2020 </span> <span> <i class="flaticon-placeholder"></i> AH Oditoriam</span> </p> -->
                             </div>
                             
 <p>Assalamu'alaikum wr.wb. </p>

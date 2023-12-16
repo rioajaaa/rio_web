@@ -5,11 +5,9 @@ class Login extends CI_Controller{
         $this->load->model('m_login');
     }
     function index(){
-        
         $this->load->view('admin/v_login');
         
     }
-    
     function auth(){
         $username=strip_tags(str_replace("'", "", $this->input->post('username')));
         $password=strip_tags(str_replace("'", "", $this->input->post('password')));

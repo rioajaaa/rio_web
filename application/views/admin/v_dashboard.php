@@ -1,25 +1,16 @@
 <?php
         /* Mengambil query report*/
-        foreach($visitor as $result){
-            $bulan[] = $result->tgl; //ambil bulan
-            $value[] = (float) $result->jumlah; //ambil nilai
-        }
+        // foreach($visitor as $result){
+        //     $bulan[] = $result->tgl; //ambil bulan
+        //     $value[] = (float) $result->jumlah; //ambil nilai
+        // }
         /* end mengambil query*/
-
     ?>
 <div id="content">
-
-        
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-          
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
-
-          
-          
-
         </nav>
         
         <div class="container-fluid">
